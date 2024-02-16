@@ -1,5 +1,5 @@
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
 
 class Rule {
     int divisor;
@@ -20,7 +20,7 @@ public class FizzBuzz {
         rules.add(new Rule(5, "Buzz"));
         rules.add(new Rule(7, "Jazz")); // easily extendable with this single line
 
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i ++) {
             StringBuilder stringBuilder = new StringBuilder();
 
             for (Rule rule : rules) {
